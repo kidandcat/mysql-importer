@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `users` (
+  `Columna 1` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+
+DELETE FROM `users`;
+
