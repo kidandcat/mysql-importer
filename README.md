@@ -23,7 +23,7 @@ A simple module to import a sql script into a MySQL database if it is empty.
         table: 'exampleTableName'
     };
     
-    mi.import(route);
+    mi.sql(route);
 
  The `table` option specifies the table to check against, if it exists, nothing will be done.     
  
