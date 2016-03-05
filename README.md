@@ -1,4 +1,4 @@
-# MySQL importer
+# SQL importer
 
 
 
@@ -7,13 +7,18 @@
 A simple module to import a sql script into a MySQL database if it is empty.  
 
 
+## Supported databases
+
+Right now, just MySQL.
+
+
 ## Installation
 
-     npm install mysql-importer
+     npm install sql-importer
 
 ## Using
 
-     var mi = require('mysql-importer');
+     var mi = require('sql-importer');
      
      mi.config = {
         host: 'example.com',
